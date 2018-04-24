@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/REALSNEAKERS-master/app/controllers/HomeController.java:64:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method findLigetCurrentUser()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: interface io.ebean.Query<models.products.Category>[0m
+[0m[[0m[31merror[0m] [0m[0m        List<Category> categoryList = Category.find.query().where().orderBy("name asc").findLigetCurrentUser();st();[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/REALSNEAKERS-master/app/controllers/HomeController.java:64:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method st()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0m        List<Category> categoryList = Category.find.query().where().orderBy("name asc").findLigetCurrentUser();st();[0m

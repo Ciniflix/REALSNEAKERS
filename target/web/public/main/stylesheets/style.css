@@ -1,0 +1,55 @@
+.carousel-inner img { 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+/* Add a dark background color with a little bit see-through */ 
+.navbar {
+    margin-bottom: 0;
+    background-color: 	#F08080;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* Adds a DarkSlateGrey   color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: 	##2F4F4F !important;
+}
+
+/* On hover, the links will turn DimGray */
+.navbar-nav li a:hover {
+    color: 	#696969!important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: 		#6495ED;
+	background-color: Lightblue;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+
+.panel {
+    margin: 40px;
+}
+body {background-color: Black;}

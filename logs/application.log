@@ -1,0 +1,12 @@
+2018-04-24 09:06:07,351 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-12 - Creating Pool for datasource 'default'
+2018-04-24 09:06:07,614 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-12 - Database [default] connected at jdbc:h2:file:./data/productsDB
+2018-04-24 09:06:08,335 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-12 - ApplicationTimer demo: Starting application at 2018-04-24T08:06:08.335Z
+2018-04-24 09:06:08,770 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-12 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-04-24 09:06:08,932 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-12 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2018-04-24 09:06:08,937 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-12 - Application started (Dev)

@@ -1,0 +1,46 @@
+@(user:models.users.User)
+@main("contactUs" ,user) {
+    
+  <div class="container-fluid">
+         
+       <h2 class="text-"><br>Contact Us</br></h2>
+          <div class="row">
+            <div class="col-sm-5">
+              <p>Hi! Thank you for Wishing to Contact Us ,
+              <p>Submit Youre inquiry & we will try to get back to you within 48 hours.</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Galway,Ireland</p>
+              <p><span class="glyphicon glyphicon-phone"></span> +01 456 9578</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> RealSneakersReviewsU@@hotmail.com</p> 
+            </div>
+            <div class="col-sm-5">
+              <div class="row">
+                <div class="col-sm-5 form-group">
+                  <input class="form-control" id="First Name" name="First Name" placeholder="First Name" type="text" required>
+                </div>
+          <div class="col-sm-5  form-group">
+                  <input class="form-control" id="Last Name" name="Last Name" placeholder="Last Name" type="text" required>
+                </div>
+          <div class="col-sm-5 form-group">
+                  <input class="form-control" id="Phone Number" name="Phone Number" placeholder="Phone Number" type="text" required>
+           
+         </div>
+        
+                <div class="col-sm-5 form-group">
+                  <input class="form-control" id="Email" name="Email" placeholder="Email" type="Email" required>
+                </div>
+             <div class="col-sm-5 form-group">
+                  <input class="form-control" id="Confirm Email" name=" Confirm Email" placeholder="Confirm Email" type="Email" required>
+                </div>
+                  <div class="col-sm-5 form-group">
+                 <input class="form-control" id="Inquiry " name="Inquiry" placeholder="Inquiry" type="Inquiry" required>
+                </div>
+          </div>
+              <div class="row">
+                <div class="col-sm-5 form-group">
+                 <button class="btn btn-default btn-lg">Submit</button>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      }

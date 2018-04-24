@@ -1,0 +1,37 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Non admin routes (public and customer)
+GET     /                           controllers.HomeController.index
+GET     /aboutUs                      controllers.HomeController.aboutUs
+GET     /contactUs                    controllers.HomeController.contactUs
+# Login form
+GET		/login						        controllers.HomeController.login()
+POST	/loginSubmit				        controllers.HomeController.loginSubmit()
+GET     /logout                             controllers.HomeController.logout()
+
+# products accepts a parameter default to 0 (Long)
+GET     /products                   controllers.HomeController.products(cat:Long ?=0L)
+
+# Admin routes
+
+GET     /admin                           controllers.AdminController.index
+
+GET     /admin/products                   controllers.AdminController.products(cat:Long ?=0L)
+
+# Display the add product page
+GET		/admin/addProduct					controllers.AdminController.addProduct()
+
+# Process the add product form after it is submitted using the POST method 
+POST	/admin/addProductSubmit			controllers.AdminController.addProductSubmit()
+
+# Update product (by id)
+GET		/admin/updateProduct/:id			controllers.AdminController.updateProduct(id:Long)
+
+# Delete a product by an id passed as a parameter
+GET     /admin/delProduct/:id             controllers.AdminController.deleteProduct(id:Long)
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
