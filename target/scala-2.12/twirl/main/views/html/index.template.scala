@@ -38,7 +38,7 @@ Seq[Any](_display_(/*2.2*/main("Home" , user)/*2.21*/ {_display_(Seq[Any](format
   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
   <li data-target="#myCarousel" data-slide-to="1"></li>
   <li data-target="#myCarousel" data-slide-to="2"></li>
-  <li data-target="#myCarousel" data-slide-to="3"></li>
+
   </ol>
   
   <!-- Wrapper for slides -->
@@ -46,36 +46,30 @@ Seq[Any](_display_(/*2.2*/main("Home" , user)/*2.21*/ {_display_(Seq[Any](format
   <div class="item active">
   <img src="/assets/images/Addias.jpg" alt="Sale">
   <div class="carousel-caption">
-  <h3>This months reviews</h3>
-  <p>* The latest 5 sneakers reviews *</p>
+  <h3>Back To Black</h3>
+  <p>Addias Orginals</p>
   </div> 
   </div>
   
   
   <div class="item">
-  <img src="/assets/images/Addias.jpg" alt="TV">
+  <img src="/assets/images/Vapermax.jpg" alt="Vapermax">
   <div class="carousel-caption">
-    <h3>This months reviews</h3>
-    <p>* The latest 5 sneakers reviews *</p>
+    <h3>The Best Shoes for summer</h3>
+    <p>Vapermax</p>
     </div> 
   </div>
   
   
   <div class="item">
-  <img src="/assets/images/Addias.jpg" alt="iPhone">
+  <img src="/assets/images/Converse.jpg" alt="Converse">
   <div class="carousel-caption">
-    <h3>This months reviews</h3>
-    <p>* The latest 5 sneakers reviews *</p>
+    <h3>Old School</h3>
+    <p>Best selling Shoes for Girls</p>
     </div>   
   </div>
   
-  <div class="item">
-  <img src="/assets/images/Addias.jpg" alt="Macbook">
-  <div class="carousel-caption">
-    <h3>This months reviews</h3>
-    <p>* The latest 5 sneakers reviews *</p>
-    </div>
-  </div>
+  
   
   
   
@@ -92,33 +86,33 @@ Seq[Any](_display_(/*2.2*/main("Home" , user)/*2.21*/ {_display_(Seq[Any](format
   </a>
   </div>
   <style>
-  .carousel-inner img """),format.raw/*64.23*/("""{"""),format.raw/*64.24*/("""
+  .carousel-inner img """),format.raw/*58.23*/("""{"""),format.raw/*58.24*/("""
   
-  """),format.raw/*66.3*/("""width: 60%; /* Set width to 100% */
+  """),format.raw/*60.3*/("""width: 60%; /* Set width to 100% */
   margin: auto;
-  height:60%;
-  """),format.raw/*69.3*/("""}"""),format.raw/*69.4*/("""
-  """),format.raw/*70.3*/("""</style>
+  height:40%;
+  """),format.raw/*63.3*/("""}"""),format.raw/*63.4*/("""
+  """),format.raw/*64.3*/("""</style>
  <div class="container"> 
   <div class="row">
   <div class="col-sm-4">
  <div class="panel panel-primary">
  <div class="panel-heading">Mens</div>
-  <div class="panel-body"><img src="/assets/images/MensShirt.jpg" style="width:100%" alt="Starwars2"></div>
+  <div class="panel-body"><img src="/assets/images/VansFlame.jpg" style="width:50% ;height:50%" alt="VansFlame"></div>
   <div class="panel-footer"> </div>
   </div>
   </div>
   <div class="col-sm-4"> 
   <div class="panel panel-danger">
-  <div class="panel-heading">womens </div>
-  <div class="panel-body"><img src="/assets/images/WomensSneakers.jpg" style="width:100%" alt="daddysHome2"></div>
+  <div class="panel-heading">Lowkey runners for Women</div>
+  <div class="panel-body"><img src="/assets/images/AdidasWomenN.jpg" style="width:100%" alt="AdidasWomenN"></div>
   <div class="panel-footer"></div>
   </div>
   </div>
   <div class="col-sm-4"> 
   <div class="panel panel-warning">
   <div class="panel-heading">Kids </div>
-  <div class="panel-body"><img src="/assets/images/Wonder.jpg"class="img-responsive" style="width:100%" alt="Image"></div>
+  <div class="panel-body"><img src="/assets/images/Wonder.jpg"class="img-responsive" style="width:100%" alt=""></div>
   <div class="panel-footer"> </div>
   </div>
   </div>
@@ -129,27 +123,27 @@ Seq[Any](_display_(/*2.2*/main("Home" , user)/*2.21*/ {_display_(Seq[Any](format
   <div class="col-sm-4">
   <div class="panel panel-primary ">
   <div class="panel-heading"> Mens </div>
-  <div class="panel-body"><img src="/assets/images/Paddington.jpg" class="img-responsive" style="width:100%" alt="Paddington2"></div>
+  <div class="panel-body"><img src="/assets/images/Paddington.jpg" class="img-responsive" style="width:100%" alt=""></div>
   <div class="panel-footer"></div>
   </div>
   </div>
   <div class="col-sm-4"> 
   <div class="panel panel-danger ">
   <div class="panel-heading">womens</div>
-  <div class="panel-body"><img src="/assets/images/PitchPerfect3.jpg" class="img-responsive" style="width:100%" alt="PitchPerfect3"></div>
+  <div class="panel-body"><img src="/assets/images/NikeAirMax270.jpg" class="img-responsive" style="width:100%" alt="NikeAirMax270"></div>
   <div class="panel-footer"> </div>
   </div>
   </div>
   <div class="col-sm-4"> 
   <div class="panel panel-warning">
   <div class="panel-heading">Kids </div>
-  <div class="panel-body"><img src="/assets/images/JusticeLeague.jpg" class="img-responsive" style="width:100%" alt="JusticeLeague"></div>
+  <div class="panel-body"><img src="/assets/images/JusticeLeague.jpg" class="img-responsive" style="width:100%" alt=""></div>
   <div class="panel-footer"></div>
   </div>
   </div>
   </div>
   </div><br><br> 
-""")))}),format.raw/*121.2*/(""" """))
+""")))}),format.raw/*115.2*/(""" """))
       }
     }
   }
@@ -165,11 +159,11 @@ Seq[Any](_display_(/*2.2*/main("Home" , user)/*2.21*/ {_display_(Seq[Any](format
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 24 09:01:29 IST 2018
+                  DATE: Tue Apr 24 10:24:34 IST 2018
                   SOURCE: /home/wdd/webapps/REALSNEAKERS-master/app/views/index.scala.html
-                  HASH: 90301c5d10a928f17099144c4ef64111541e80f2
-                  MATRIX: 959->1|1077->27|1104->46|1143->48|1174->53|2921->1772|2950->1773|2983->1779|3078->1847|3106->1848|3136->1851|5011->3695
-                  LINES: 28->1|33->2|33->2|33->2|35->4|95->64|95->64|97->66|100->69|100->69|101->70|152->121
+                  HASH: 7ece8310707d38e2d9135761d23c35d29158782e
+                  MATRIX: 959->1|1077->27|1104->46|1143->48|1174->53|2618->1469|2647->1470|2680->1476|2775->1544|2803->1545|2833->1548|4706->3390
+                  LINES: 28->1|33->2|33->2|33->2|35->4|89->58|89->58|91->60|94->63|94->63|95->64|146->115
                   -- GENERATED --
               */
           

@@ -6,12 +6,12 @@
  @main("Products" ,user) {
       <!-- https://getbootstrap.com/docs/4.0/layout/grid/ -->
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-4">
           <h4>Categories</h4>
           <!-- https://getbootstrap.com/docs/4.0/components/list-group/ -->
           <div class="list-group text-right">
             <a href="@routes.HomeController.products(0)" class="list-group-item  list-group-item-action">All Categories
-              <span class="badge badge-secondary">@productList.size()</span>
+              <span class="badgeImage badge-secondary">@productList.size()</span>
             </a>
 
             @* Start of loop - for each category in the categoryList *@
@@ -26,8 +26,9 @@
           </div>
 
         </div>
-
-        <div class="col-sm-8">
+          </div>
+        <div class="row">
+          <div class="col-sm-8">
 
             @* Display flash message - after adding a product *@
             @if(flash.containsKey("success")) {

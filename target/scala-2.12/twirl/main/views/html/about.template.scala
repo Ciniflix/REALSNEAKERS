@@ -31,14 +31,25 @@ object about extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
       {
 
 
-Seq[Any](format.raw/*10.1*/("""
- """),_display_(/*11.3*/main("About Us", user)/*11.25*/ {_display_(Seq[Any](format.raw/*11.27*/("""
-      """),format.raw/*12.7*/("""<!-- this css class is not part of bootstrap but is defined in /css/style.css -->
+Seq[Any](_display_(/*10.2*/main("About Us", user)/*10.24*/ {_display_(Seq[Any](format.raw/*10.26*/("""
+      """),format.raw/*11.7*/("""<!-- this css class is not part of bootstrap but is defined in /css/style.css -->
       <div class="starter-template">
-            <h1>The About Us Page</h1>
-            <p class="lead">Who are we?</p>
-          </div>
- """)))}))
+            <h1> Our Purpose</h1>
+
+            <img src="AboutUs.jpg" alt="AboutUs" style="width:auto;">
+            <p class="lead">Real Retail Reviews is a new review website that enables users to login and leave reviews on shoes.
+               With all genders to choose from.Everyone likes to keep up to date in the latest fashion in footwear. From all 
+               ages and all categories Men's Women's and kids, everyone individuall from the day we are born we following some sort of trend.
+               Trends is what is what is popular at a certain point in time. Trends can be influenced by anyone, friends, celebrities,bloggers, adds.
+               In todays culture, we believe everyone cares about what is trending and word of mouth is a key factor in this. Coming with a retail backgrounds we are inspired 
+             to get the best possible information for clothing, as well as user experience. Interaction from user to also leave reviews can help educate others in 
+              what is trending and what isnt.. </p>
+              <p><strong>non profit website:</strong>  our only goal is giving users good recommendations. 
+              </p>
+              
+            </div>
+ """)))}),format.raw/*27.3*/("""
+ """))
       }
     }
   }
@@ -54,11 +65,11 @@ Seq[Any](format.raw/*10.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 24 09:01:29 IST 2018
+                  DATE: Tue Apr 24 10:15:17 IST 2018
                   SOURCE: /home/wdd/webapps/REALSNEAKERS-master/app/views/about.scala.html
-                  HASH: 4f493539b963e1f549f04c4a20b8e06799c1ca3e
-                  MATRIX: 651->1|987->138|1094->151|1123->154|1154->176|1194->178|1228->185
-                  LINES: 24->1|29->9|34->10|35->11|35->11|35->11|36->12
+                  HASH: b2fc40e38e6e428c3a3252a368f9825b66bbd3a0
+                  MATRIX: 651->1|987->138|1094->152|1125->174|1165->176|1199->183|2554->1508
+                  LINES: 24->1|29->9|34->10|34->10|34->10|35->11|51->27
                   -- GENERATED --
               */
           
